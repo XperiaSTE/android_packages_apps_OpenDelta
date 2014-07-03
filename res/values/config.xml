@@ -4,25 +4,25 @@
     <item type="bool" name="debug_output">false</item>
 
     <!-- Property to read for ROM version -->
-    <string name="property_version">ro.cm.version</string>
+    <string name="property_version">ro.delta.version</string>
 
     <!-- Property to read for device identifier -->
-    <string name="property_device">ro.cm.device</string>
+    <string name="property_device">ro.product.device</string>
 
     <!-- %s is expanded to property_version value. .zip, .delta, .update, .sign extensions added when needed -->
-    <string name="filename_base">cm-%s</string>
+    <string name="filename_base">cm11.0-%s</string>
 
     <!-- Path deltas are stored, relative to sdcard root -->
     <string name="path_base">OpenDelta</string>
 
     <!-- URL base to find .delta files, %s is expanded to property_device value. Path is suffixed by (expanded) filename_base -->
-    <string name="url_base_delta">http://hubdroid.com/delta/stable/cm11/%s/</string>
+    <string name="url_base_delta">http://builds.hubdroid.com/cm11/stable/delta/%s/</string>
 
     <!-- URL base to find .update and .sign files, %s is expanded to property_device value. Path is suffixed by (expanded) filename_base -->
-    <string name="url_base_update">http://hubdroid.com/delta/stable/cm11/%s/</string>
+    <string name="url_base_update">http://builds.hubdroid.com/cm11/stable/delta/%s/</string>
 
     <!-- URL base to find the full zip files, %s is expanded to property_device value. Path is suffixed by (expanded) filename_base -->
-    <string name="url_base_full">http://hubdroid.com/builds/stable/cm11/%s/</string>
+    <string name="url_base_full">http://builds.hubdroid.com/cm11/stable/builds/%s/</string>
 
     <!-- Applies whole-file signature delta. Adds one extra delta step. Required if recovery verifies signatures -->
     <item type="bool" name="apply_signature">true</item>
