@@ -45,9 +45,5 @@
     	repaired, this is a stop-gap solution.
     -->
     <string-array name="keep_screen_on_devices">
-        <item>kumquat</item>
-        <item>nypon</item>
-        <item>pepper</item>
-        <item>lotus</item>
     </string-array>
 </resources>
