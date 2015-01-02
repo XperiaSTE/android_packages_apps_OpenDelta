@@ -10,19 +10,19 @@
     <string name="property_device">ro.product.device</string>
 
     <!-- %s is expanded to property_version value. .zip, .delta, .update, .sign extensions added when needed -->
-    <string name="filename_base">cm11.0-%s</string>
+    <string name="filename_base">cm12.0-%s</string>
 
     <!-- Path deltas are stored, relative to sdcard root -->
     <string name="path_base">OpenDelta</string>
 
     <!-- URL base to find .delta files, %s is expanded to property_device value. Path is suffixed by (expanded) filename_base -->
-    <string name="url_base_delta">http://builds.hubdroid.com/cm11/nightlies/delta/%s/</string>
+    <string name="url_base_delta">http://builds.hubdroid.com/cm12/nightlies/delta/%s/</string>
 
     <!-- URL base to find .update and .sign files, %s is expanded to property_device value. Path is suffixed by (expanded) filename_base -->
-    <string name="url_base_update">http://builds.hubdroid.com/cm11/nightlies/delta/%s/</string>
+    <string name="url_base_update">http://builds.hubdroid.com/cm12/nightlies/delta/%s/</string>
 
     <!-- URL base to find the full zip files, %s is expanded to property_device value. Path is suffixed by (expanded) filename_base -->
-    <string name="url_base_full">http://builds.hubdroid.com/cm11/nightlies/builds/%s/</string>
+    <string name="url_base_full">http://builds.hubdroid.com/cm12/nightlies/builds/%s/</string>
 
     <!-- Applies whole-file signature delta. Adds one extra delta step. Required if recovery verifies signatures -->
     <item type="bool" name="apply_signature">false</item>
