@@ -44,10 +44,4 @@
     	This appears to be an issue with the fuse daemon, but the cause has not yet been found or fixed. Until the issue is
     	repaired, this is a stop-gap solution.
     -->
-    <string-array name="keep_screen_on_devices">
-        <item>kumquat</item>
-        <item>nypon</item>
-        <item>pepper</item>
-        <item>lotus</item>
-    </string-array>
 </resources>
