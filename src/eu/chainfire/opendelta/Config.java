@@ -118,18 +118,6 @@ public class Config {
         secure_mode_default = res.getBoolean(R.bool.secure_mode_default);
         
         boolean keep_screen_on = false;
-        try {
-            String[] devices = res.getStringArray(R.array.keep_screen_on_devices);
-            if (devices != null) {
-                for (String device : devices) {
-                    if (property_device.equals(device)) {
-                        keep_screen_on = true;
-                        break;
-                    }
-                }
-            }
-        } catch (Resources.NotFoundException e) {
-        }
         this.keep_screen_on = keep_screen_on;
 
         Logger.d("property_version: %s", property_version);
